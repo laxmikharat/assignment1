@@ -16,7 +16,7 @@ public class Ec2Application {
 
 	@GetMapping("/hello")
 	public String helloWorld(){
-		return "Hello World!!!";
+		return "Welcome to hello World!!!";
 	}
 
 	@GetMapping("/api")
