@@ -19,4 +19,10 @@ public class Ec2Application {
 		return "Hello World!!!";
 	}
 
+	@GetMapping("/api")
+	public String hello(){
+		return "hello";
+	}
+
 }
+
