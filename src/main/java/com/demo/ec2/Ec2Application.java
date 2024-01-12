@@ -23,6 +23,10 @@ public class Ec2Application {
 	public String hello(){
 		return "hello";
 	}
+	@GetMapping("/v1/api")
+	public String hello1(){
+		return "I am laxmi:";
+	}
 
 }
 
